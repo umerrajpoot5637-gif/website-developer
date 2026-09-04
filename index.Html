@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umer Web Development Services</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f8fafc;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: white;
+            text-align: center;
+            padding: 60px 20px 80px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 650px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+        }
+
+        /* Contact Section Inside Hero */
+        .contact-container {
+            background: white;
+            color: #333;
+            max-width: 850px;
+            margin: 0 auto;
+            border-radius: 12px;
+            padding: 25px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-align: left;
+        }
+
+        .contact-item img {
+            width: 35px;
+            height: 35px;
+        }
+
+        .contact-details span {
+            display: block;
+            font-size: 0.85rem;
+            color: #666;
+            font-weight: 600;
+        }
+
+        .contact-details a, .contact-details p {
+            font-weight: bold;
+            color: #1e293b;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+
+        .whatsapp-btn {
+            background-color: #25d366;
+            color: white !important;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+            transition: transform 0.2s ease;
+        }
+
+        .whatsapp-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        /* Services Section */
+        .services-section {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .services-section h2 {
+            font-size: 2rem;
+            color: #1e3a8a;
+            margin-bottom: 40px;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            border-top: 4px solid #2563eb;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            font-size: 1.3rem;
+            color: #0f172a;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #64748b;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 600px) {
+            .contact-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <h1>Umer Web Development Services</h1>
+        <p>Aapke business ko online le jaane ke liye modern, fast aur affordable websites.</p>
+
+        <div class="contact-container">
+            <div class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail">
+                <div class="contact-details">
+                    <span>Gmail</span>
+                    <a href="mailto:umerrajpoot5637@gmail.com">umerrajpoot5637@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/126/126509.png" alt="Phone">
+                <div class="contact-details">
+                    <span>Number</span>
+                    <a href="tel:03025150237">03025150237</a>
+                </div>
+            </div>
+
+            <a href="https://wa.me/923025150237" target="_blank" class="whatsapp-btn">
+                <span>💬 Chat on WhatsApp</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="services-section">
+        <h2>Our Web Development Services</h2>
+        
+        <div class="cards-grid">
+            <div class="card">
+                <h3>Business Websites</h3>
+                <p>Company profiles, landing pages, aur portfolio websites jo clients ko attract karein.</p>
+            </div>
+
+            <div class="card">
+                <h3>E-Commerce Stores</h3>
+                <p>Online store jahan aap apni products direct sell kar sakte hain.</p>
+            </div>
+
+            <div class="card">
+                <h3>Mobile Friendly & Fast</h3>
+                <p>Har website mobile, tablet aur laptop par bilkul fast aur perfect chalegi.</p>
+            </div>
+        </div>
+    </section>
